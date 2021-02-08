@@ -2,7 +2,7 @@
 <div class="first-container">
     <div class="home-container">
 
-        <div class="form-check">
+        <div class="form-check-home">
 
             <%= form_with(url: "/contents",
 
@@ -50,6 +50,12 @@
             <% end %>
 
          </div>
+        <div class="home-text">
+            <h4>or</h4>
+            <%= link_to "/search", class: "home-button" do %>
+                <h3 style="color:white">Choose a topic</h3>
+            <% end %>
+        </div>
     </div>
 </div>
 
