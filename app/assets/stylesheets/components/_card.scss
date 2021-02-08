@@ -265,20 +265,23 @@
 }
 
 @media (max-width: 2500px) {
-
+.article-main {
+  height: 90vh;
+}
 a {
   color: #65C6C4;
   font-size: 40px;
 }
 
   .card-all-content{
+    border-left: 15px solid #fafafa;
     p {
       font-size: 27px;
       line-height: 46px;
       letter-spacing: 0.02em;
       padding-left: 180px;
       padding-right: 100px;
-
+      
     }
   }
   
@@ -444,6 +447,7 @@ a {
 }
 
   .card-all-content{
+    border-left: none;
     p {
       font-size: 16px;
       line-height: 23px;
@@ -551,7 +555,9 @@ a {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 4px;
-    width: 700px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: start;
   }
   
@@ -647,7 +653,7 @@ a {
 
 
   .card-article-text-content {
-    margin-top: -360px;
+    margin-top: 0px;
   }
 
   
@@ -664,6 +670,7 @@ a {
 }
 
   .card-all-content{
+    border-left: none;
     p {
       font-size: 16px;
       line-height: 23px;
@@ -703,7 +710,7 @@ a {
   
     
   .article-category {
-    margin-top: -50px;
+
     float: left;
   }
   
@@ -734,9 +741,10 @@ a {
     transition-duration: 0.4s;
     border-radius: 8px;
     font-size: 16px;
-    margin: 45px 15px 12px;
+
     padding-inline-start: 12px;
     padding-inline-end: 12px;
+    margin-left: 5%;
   }
 
   .article-button-non-blue{
@@ -771,7 +779,8 @@ a {
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 2px;
-    width: 370px;
+    width: 90%;
+    margin-bottom: 4%;
   }
   
   .customize {
@@ -803,7 +812,7 @@ a {
  
 
   .card-img-top {
-    width: 400px;
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -817,6 +826,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
 
   }
 
@@ -841,8 +851,16 @@ a {
 
 
   .card-article-text-content {
-    margin-top: -400px;
+    padding-left: 39px;
   }
+  
+  .title-article {
+    font-size: 20px;
+ }
+
+ .article-main {
+  height: 100vh;
+ }
 }
 
 
@@ -851,5 +869,10 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -50px;
-  height: 90vh;
+
+}
+
+
+.title-article {
+  padding-top: 50px; text-shadow: 1px 1px 2px #fdfffc;
 }

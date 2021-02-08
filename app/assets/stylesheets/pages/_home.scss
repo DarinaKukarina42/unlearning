@@ -831,6 +831,17 @@ input[type="checkbox"] {
     
     }
 
+    .home-container {
+        background: none;
+        padding-top: 50px;
+    }
+        
+    .first-container {
+        background-image: url("geometric.jpg");
+        height: 90vh;
+        margin-top: -30px;
+        }
+
   } 
 
 @media (max-width: 750px) {
@@ -1040,6 +1051,15 @@ input[type="checkbox"] {
         height: 200px;
     }
 
+    .home-container, .search-form-check {
+        background: none;
+    }
+    
+    .first-container {
+    background-image: url("geometric.jpg");
+    height: 90vh;
+    margin-top: -30px;
+    }
 }
 
 

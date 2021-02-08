@@ -3,7 +3,7 @@
         <!-- boucle  -->
         <% @contents.each_with_index do |content, index| %>
           <div class="carousel-item <%= index == 0 ? 'active' : "" %>">
-            <div class="card-all-content" style="border-left: 15px solid #fafafa;">
+            <div class="card-all-content">
               <!-- VIDEO -->
               <% if content.format == "video"  %>
                 <div class="card-full-content-video">
@@ -29,7 +29,7 @@
               <% elsif content.format == "article" %>
               <div class="article-main">
                 <div class="card-text-title">
-                  <h2 style="padding-top: 50px; text-shadow: 1px 1px 2px #fdfffc;"><%= content.title %></h2>
+                  <h2 class="title-article"><%= content.title %></h2>
                 </div>
 
                 <div class="card-article-full-content"> <!-- start -->
@@ -50,7 +50,7 @@
 
                     <div class="article-content">
                       <div class="article-category">
-                        <button class="article-button" style="color: white; background-color: #65C6C4; border:none; border-radius: 10px; height:40px; font-size: 20px; margin-left:10px; width: 200px"><%=  content.category %></button>
+                        <button class="article-button" style="color: white; background-color: #65C6C4; border:none; border-radius: 10px; height:40px; font-size: 20px; width: 200px"><%=  content.category %></button>
                         <span class="article-heart"><%= render "/contents/favorite_button", content: content %></span>
                       </div>
                     </div>
