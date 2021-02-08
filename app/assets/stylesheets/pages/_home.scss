@@ -1,5 +1,5 @@
 body {
-    background-image: url("geometric.jpg");
+    background-image: image-url("geometric.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -837,7 +837,7 @@ input[type="checkbox"] {
     }
         
     .first-container {
-        background-image: url("geometric.jpg");
+        background-image: image-url("geometric.jpg");
         height: 90vh;
         margin-top: -30px;
         }
@@ -1056,7 +1056,7 @@ input[type="checkbox"] {
     }
     
     .first-container {
-    background-image: url("geometric.jpg");
+    background-image: image-url("geometric.jpg");
     height: 90vh;
     margin-top: -30px;
     }
