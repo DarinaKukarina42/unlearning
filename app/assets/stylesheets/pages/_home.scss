@@ -562,17 +562,18 @@ input[type="checkbox"] {
     }
 
 
-    // here!
+
 
     .fav-card {
-        width: 1080px;
         margin-top: 90px;
         margin-bottom: 0px;
         padding: 30px;
         border-radius: 30px;
         filter: drop-shadow(6px 6px 48px rgba(0, 0, 0, 0.11));
         background-color: white;
-        margin-left: 50%;
+        margin-left: auto;
+        width: 90%;
+        margin-right: auto;
 
     }
 
@@ -675,12 +676,16 @@ input[type="checkbox"] {
         margin-right: auto;
         display: block;
     }
+    .library-container {
+        margin-left: 0;
+     }
   }
 
 
 
   @media (max-width: 1030px) {
         //medium
+
 
         .background-advanced {
 
@@ -778,7 +783,7 @@ input[type="checkbox"] {
         padding: 20px;
         border-radius: 20px;
         filter: drop-shadow(4px 4px 32px rgba(0, 0, 0, 0.11));
-        margin-left: 33%; 
+        margin-left: 27%; 
     }
     
 
@@ -837,13 +842,13 @@ input[type="checkbox"] {
         height: 90vh;
         margin-top: -30px;
         }
-
+        .library-container {
+            margin-left: -300px;
+            padding-left: 70px;
+        }
   } 
 
-    .library-container {
-        margin-left: -300px;
-        padding-left: 70px;
-    }
+
 
 @media (max-width: 750px) {
 //small
@@ -940,7 +945,7 @@ input[type="checkbox"] {
         padding: 10px;
         border-radius: 10px;
         filter: drop-shadow(2px 2px 16px rgba(0, 0, 0, 0.11));
-        margin-left: 45%;
+        margin-left: 39%;
     }
 
 
