@@ -2,12 +2,17 @@ body {
     background-image: image-url("geometric.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
 }
 
 .first-container {
 
 }
 
+audio::-webkit-media-controls-panel{
+    background-color: #fff !important;
+
+    }
 .home-container {
     margin-top: 30px;
     background: rgb(255,255,255);
@@ -459,10 +464,6 @@ input[type="checkbox"] {
 }
 
 
-.button-format {
-    margin-left: auto;
-}
-
 
 
 .video-box {
@@ -579,10 +580,6 @@ input[type="checkbox"] {
         height: 500px;
     }
 
-
-    .author-card {
-        font-size: 28px;
-    }
     .advanced-button {
         border-radius: 16px;
         font-size: 32px;
@@ -682,8 +679,16 @@ input[type="checkbox"] {
 
 
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1030px) {
         //medium
+
+        .background-advanced {
+
+        }
+        .audio-box {
+            margin-top: 200px;
+            margin-left: 5%;
+        }
 
         .quote {
             font-size: 36px;
@@ -767,24 +772,15 @@ input[type="checkbox"] {
 
 
     .fav-card {
-        width: 720px;
+        width: 690px;
         margin-top: 60px;
         margin-bottom: 0px;
         padding: 20px;
         border-radius: 20px;
         filter: drop-shadow(4px 4px 32px rgba(0, 0, 0, 0.11));
-        margin-left: 25%; 
+        margin-left: 33%; 
     }
     
-    .button-format {
-    margin-left: 30%;   
-    width: 750px;    
-    }
-
-    .iframe-video {
-        width: 600px;
-        height: 350px;
-    }
 
     .advanced-button {
         border-radius: 12px;
@@ -844,9 +840,16 @@ input[type="checkbox"] {
 
   } 
 
+    .library-container {
+        margin-left: -300px;
+        padding-left: 70px;
+    }
+
 @media (max-width: 750px) {
 //small
-
+    .fav-listen{
+        font-size: 15px;
+    }
     .quote {
         font-size: 24px;
         width: 260px;
@@ -937,20 +940,10 @@ input[type="checkbox"] {
         padding: 10px;
         border-radius: 10px;
         filter: drop-shadow(2px 2px 16px rgba(0, 0, 0, 0.11));
-        margin-left: 5%;
+        margin-left: 45%;
     }
 
-            
-    .button-format {
-        margin-left: 5%;
-        width: 400px;    
-    }
 
-        
-    .iframe-video {
-        width: 300px;
-        height: 150px;
-    }
 
     .library-title {
         margin-left: 30px;
@@ -971,6 +964,7 @@ input[type="checkbox"] {
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
+        width: 300px;
     }
 
     .video-title-container {
@@ -1001,6 +995,7 @@ input[type="checkbox"] {
     .title {
         font-size: 18px;
         line-height: 22px;
+        width: 200px;
     }
 
     .author {
